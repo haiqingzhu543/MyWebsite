@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title> Haiqing Zhu's Personal Website </title>
+
+        <!-- CSS Declaration -->
+        <link rel="stylesheet" type = "text/css" href="home_page_style.css">
+    </head>
+
+
+
+    <body>
+
+        <!-- Banner section of the home page --> 
+        <div id="banner">
+
+            <!-- Big header-->
+            <h1 id="header">Haiqing Zhu</h1>
+            <em id="image_description_lake_1"> Lake Matheson, New Zealand. Photographed in January 2023. </em>
+
+
+        </div>
+
+        <!-- Navigation bar inside the banner -->
+        <div id= "NavBar">
+            <ul>
+                <li><a href="#Home">About Me</a> </li>
+                <li><a href="#Research">Research</a></li>
+                <li><a href="#Awards">Awards</a></li>
+                <li><a href="#Coursework">Coursework </a> </li>
+                <li><a href="#Tutoring">Tutoring </a> </li>
+                <li><a href="#ContactMe">Contact Me </a> </li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="assignment.html">assignment.html</a></li>
+            </ul>
+        </div>
+
+
+        <a id = Home></a>
+        <!-- About Myself and My passion-->
+        <div id="self-intro" class="section">
+
+            <!-- Section heading -->
+            <h2 id = self-intro-heading, class="section-headings"> Me and My Passion </h2>
+
+            <table class = formating-table>
+                <tbody>
+                    <tr>
+                        <th>
+                            <!-- Image of myself -->
+                            <img id="img_myself" src="assets/pic_myself.jpg" alt="picture of myself">
+                        </th>
+
+                        <th>
+                            <!-- The heading text for this section -->
+
+                            <!-- div containing all texts-->
+
+                            <div id="self-intro-texts">
+                                <!-- Paragraph 1: Personal Profile -->
+                                <p style="font-size: 2em;"> Personal Profile </p>
+                                <br style = "line-height: 7;">
+                                <p id = PersonalProfile> I am a fourth-year final-semester student studying <a href="https://programsandcourses.anu.edu.au/program/aphsc">Bachelor of Philosophy (Honours) 
+                                    - Science (Honours)</a> in Australian National University. I am majoring in Mathematics and Computer Science. My Honours degree Research project (supervised by 
+                                    <a href="http://users.cecs.anu.edu.au/~xlx/">Prof. Lexing Xie</a>) is in
+                                    the area of <a href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a> and specifically 
+                                    <a href="https://en.wikipedia.org/wiki/Computational_economics">Economic computing </a>.  </p>
+                                
+                                <br style = "line-height: 15;">
+
+                                <!-- Paragraph 2: Academic Passion -->
+                                <p style="font-size: 2em;"> Academic Passion </p>
+                                <br style = "line-height: 7;">
+                                <p id = AcademicPassion> 
+                                My academic passion now resides at the intersection of computer science and applied mathematics, with a particular focus on theoretical aspects of computer science. 
+                                This multidisciplinary approach allows me to explore the intellectual challenges and synergies between these fields, pushing me to think critically and creatively. 
+                                In particular, I am interested optimization techniques and numerical methods for PDEs which unravel hidden patterns and provide valuable insights into real-world problems. 
+                                On the other hand, compuational algorithms and machine learning expand the boundaries of our computational capabilities. 
+                                The continuous pursuit of understanding the intricate structures that underpin our world, and how they intertwine with computer science, is what drives me to delve deeper into this fascinating domain.</p>
+                                <br style = "line-height: 15;">
+
+                                <!-- Paragraph 3: Personal Interests -->
+                                <p style="font-size: 2em;"> Personal Interests </p>
+                                <br style = "line-height: 7;">
+                                <p id = PersonalInterests>
+                                    Outside of my academic life, I find solace and excitement in two activities that provide a perfect balance to my mathematical pursuits: video gaming and traveling. 
+                                    Video games have always been an outlet for me to explore virtual worlds and engage with diverse narratives, effectively honing my problem-solving skills and strategic thinking. 
+                                    The immersive nature of gaming allows me to break away from the everyday routine and experience different perspectives. 
+                                    Travel, on the other hand, has given me the opportunity to connect with new cultures and marvel at the beauty of our planet. 
+                                    So far, I have been fortunate enough to visit Italy, Thailand, Vietnam, New Zealand, China, and (of course) Australia. 
+                                    Each journey has been an enriching experience, broadening my understanding of the world and inspiring me to seek out further adventures. 
+                                    I am eager to continue exploring the globe, making new memories, and gaining invaluable insights that will undoubtedly shape my personal and professional growth.
+                                </p>
+                            </div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Image description of the me-and-my-passion-section -->
+            <em id = image-description-queenstown> Queenstown, New Zealand. Photographed in January 2023.</em>
+        </div>
+        <a id = Research></a>
+        <!-- Section about my Research projects -->
+        <div id="research" class="section">
+            <!-- The heading text for this section -->
+            <h2 id = research-heading class="section-headings"> Research Projects</h2>
+            
+            <!-- Table of the list of my previous research projects-->
+            <table id = "table-of-research-projects" class = formating-table>
+                <tr> 
+                    <!-- The Honours Project -->
+
+                    <!-- The teaser graph-->
+                    <th> <img id="img_attention_market" class = "research_teasers_graphs" src="assets/attention-market-teaser.jpg" alt = "Cultural market project teaser"> </th>
+                    <th> 
+                        <!-- Text description-->
+                        <p class="research-project-heading">  Stability and Efficiency of Online Cultural Market </p>
+                        <br style = "line-height: 55;">
+                        <p class="research-project-sub-heading"> Honours Project, One paper accepted by WWW'23 </p>
+                        <br style = "line-height: 55;">
+                        <p style="font-family: 'Lato-Light';" class="research-project-supervisor"> Supervisors/Collaborators: <a href="http://users.cecs.anu.edu.au/~xlx/"> Prof. Lexing Xie</a> <a href="https://www.cs.rhul.ac.uk/home/ujac002/"> Dr. Yun Kuen Chueng</a></p>
+                        <br style = "line-height: 55;">
+                        <p class="research-abstract"> Abstract: This work is concerned with the dynamics of online cultural markets,
+                            namely, attention allocation of many users on a set of digital
+                            goods with infinite supply. Such dynamics are important in shaping
+                            processes and outcomes in society, from trending items in entertainment,
+                            collective knowledge creation, to election outcomes. The
+                            outcomes of online cultural markets are susceptible to intricate
+                            social influence dynamics, particularly so when the community
+                            comprises consumers with heterogeneous interests. This has made
+                            formal analysis of these markets improbable. In this paper, we remedy
+                            this by establishing robust connections between influence dynamics
+                            and optimization processes, in trial-offer markets where the
+                            consumer preferences are modelled by multinomial logit. Among
+                            other results, we show that the proportional-response-esque influence
+                            dynamic is equivalent to stochastic mirror descent on a convex
+                            objective function, thus leading to a stable and predictable outcome.
+                            When all consumers are homogeneous, the objective function has
+                            a natural interpretation as a weighted sum of efficiency and diversity
+                            of the culture market. In simulations driven by real-world
+                            preferences collected from a large-scale recommender system, we
+                            observe that ranking strategies aligned with the underlying heterogeneous
+                            preferences are more stable, and achieves higher efficiency
+                            and diversity. More broadly, we see this work as the first step in
+                            connecting computational methods for classical markets to the
+                            problem area of online attention and recommender systems. We
+                            hope this result paves the way to posing and answering a diverse
+                            set of research questions in this area.</p>
+                        <br style = "line-height: 55;">
+                        <p style="font-size: 1.17em;"> <a href="https://arxiv.org/abs/2302.06226"> Paper Link </a> </p>
+                    </th>
+                </tr>
+
+                <tr>
+                    <!-- The stochastic process project -->
+
+                    <!-- The teaser graph-->
+                    <th> <img class = "research_teasers_graphs" src="assets/hawkes-teaser.jpg" alt = "teaser plot of hawkers process project"> </th>
+
+                    <th>
+                        <!-- Text description-->
+                        <p class="research-project-heading">  Making Choices in Online Attention Market </p>
+                        <br style = "line-height: 55;">
+                        <p class="research-project-sub-heading"> Semester Project (<a href="https://programsandcourses.anu.edu.au/2022/course/scnc3101"> SCNC3101 </a>) </p>
+                        <br style = "line-height: 55;">
+                        <p style="font-family: 'Lato-Light';" class="research-project-supervisor"> Supervisors/Collaborators: <a href="http://users.cecs.anu.edu.au/~xlx/"> Prof. Lexing Xie</a> <a href="https://www.linkedin.com/in/alvarofloresrios/en/?originalSubdomain=au"> Dr. Alvaro Flores</a></p>
+                        <br style = "line-height: 55;">
+                        <p class="research-abstract"> Abstract: This project aims to investigate the competition of online items and its impacts on
+                            consumers' choices. Especially, we will focus on the cases where existences of recommender
+                            systems are considered. We will first review and link the existing results in the
+                            asymptotic behaviour of discrete choice models (DCM) and online attention markets.
+                            Then, we will investigate the multivariate Hawkes process (MHP) model and relate it to
+                            choice models. Finally, we will study the multi-type Galton–Watson branching process
+                            (MTBP), which could be regarded as a theoretically well-studied simplification of the
+                            MHP. We derived several relationships among DCM’s, MBP’s and MTBP’s. By linking
+                            MTBPs’, MHP’s and the concept of market share, we also proposed a conjecture on the
+                            asymptotic type distribution of MHP’s and verified it by simulation studies. Our work
+                            presents a wide range of literature reviews and their relations to customers’ choices in
+                            the online attention market, which provides solid foundations for proceeding works.</p>
+                    </th>
+                </tr>   
+
+                <tr>
+                    <!-- The teaser graph-->
+                    <th> <img class = "research_teasers_graphs" src="assets/MF-project-teaser.png" alt = "matrix factorisation project teaser plot"> </th>
+
+                    <th>
+                        
+                        <!-- Text description-->
+                        <p class="research-project-heading"> Nonconvex Optimisation for Low-Rank Matrix Factorisation Problems </p>
+                        <br style = "line-height: 55;">
+                        <p class="research-project-sub-heading"> Semester Project (<a href="https://programsandcourses.anu.edu.au/2022/course/scnc3101"> SCNC3101 </a>) </p>
+                        <br style = "line-height: 55;">
+                        <p style="font-family: 'Lato-Light';" class="research-project-supervisor"> Supervisors/Collaborators: <a href="https://lindonroberts.github.io/"> Dr. Lindon Roberts </a></p>
+                        <br style = "line-height: 55;">
+                        <p class="research-abstract"> Abstract: In this report, we investigate the global landscape of matrix factorization, 
+                            a challenging non-convex optimization problem with applications in numerous domains. 
+                            We focus on analyzing existing research to gain a comprehensive understanding of the global landscape, 
+                            revealing intricate properties and unique characteristics that can be harnessed to improve optimization performance. 
+                            Building upon the insights from the literature, we study a family of optimization methods specifically designed to exploit the global landscape 
+                            for efficient problem-solving. We examine the implementation of these algorithms and evaluate their performance on various real-world and 
+                            synthetic datasets, highlighting significant improvements in terms of convergence speed, solution quality, 
+                            and robustness compared to existing state-of-the-art techniques. Our findings hold substantial potential 
+                            for advancing matrix factorization and its applications, offering a comprehensive exploration of the problem's 
+                            global landscape and emphasizing the importance of novel optimization methods that capitalize on its unique characteristics.</p>
+                    </th>
+                </tr>
+            </table>
+
+
+
+        </div>
+
+
+
+        <!-- Section about the awards I have been given -->
+        <a id = Awards></a>
+
+
+        <div id="award" class="section">
+            <h2 id = award-heading class="section-headings"> Awards </h2>
+            <table id= "award-table" class="formating-table">
+
+                <!--  Award 1, terrell, heading and description -->
+                <tr> 
+                    <th>
+                        <p class="award-name">Terrell International Undergraduate Scholarship </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2020, Australian National University </p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Awarded to Rank 1st student among all first-year international students involving 50% Deduction 
+                        of tuition fees and 100% oversea student’s insurance (About 60000 AUD)</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+                <!-- Award 2, chancellor's letteqr -->
+                <tr> 
+                    <th>
+                        <p class="award-name">Chancellor’s Letter of Commendation  </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2020 and 2021, Australian National University </p></th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Awarded to students with high academic achievements (full GPA) in the year</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+                <!-- Award 3, dean's list -->
+                <tr> 
+                    <th>
+                        <p class="award-name">Dean’s Science Education Commendation  </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2021 and 2022, Australian National University </p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Awarded to students with high academic achievements (WAM ≥ 90) in one semester.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+
+                <!-- Award 4, summer internship -->
+                <tr> 
+                    <th>
+                        <p class="award-name">Summer Research Internship with Extension Scholarship  </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2022, Australian National University </p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Conducting the project “Making Choices in Online Attention Market” with extension scholarship of 5000AUD.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+            
+
+            </table>
+            <em id = image-description-lake-tekapo> Lake Tekapo, New Zealand. Photographed in January 2023.</em>
+
+        </div>
+
+        <!-- Coursework Section -->
+
+        <!-- link anchor-->
+        <a id = "Coursework"></a>
+
+        <div class= "section" id="coursework">
+            <h2 class="section-headings" id = "coursework-heading"> Coursework </h2>
+
+            <!-- table for displaying all the courses I have taken before -->
+            <table class="formating-table" id = coursework-table> 
+                <tbody>
+                    <tr>
+                        <!-- header -->
+                        <th> </th> <th style="font-size: 2em;"> Math </th> <th style="font-size: 2em;"> Computer Science </th>
+                    </tr>
+
+                    <tr>
+                        <!-- 1000-level courses -->
+                        <th class="course-level"> 1000-level </th>
+                        <th class="course-name"> 
+                            <p>Mathematics and Applications 1 </p>
+                            <p>Mathematics and Applications 2 </p>
+                        </th>
+                        <th class="course-name">
+                            <p>Programming as Problem Solving</p>
+                            <p>Structured Programming</p>
+                            <p>Web Development and Design</p>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <!-- 2000-level courses -->
+                        <th class="course-level"> 2000-level </th>
+                        <th class="course-name"> 
+                            <p>Applied Mathematics I</p>
+                            <p>Adv Analysis 1: Metrics Spaces</p>
+                            <p>Adv Algebra 1: Groups, Rings and Linear Algebra</p>
+                        </th>
+                        <th class="course-name">
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <!-- 3000-level courses -->
+                        <th class="course-level"> 3000-level </th>
+                        <th class="course-name"> 
+                            <p>Numerical Optimisation</p>
+                            <p>Stochastic Analysis with Financial Applications</p>
+                            <p>Adv Analysis 2: Lebesgue Integration and Hilbert Spaces</p>
+                            <p>Differential Geometry</p>
+                            <p>Probability Theory with Applications</p>
+                            <p>Randomised Numerical Algorithms and Applications to Data Science</p>
+                            <p>Non-smooth Optimisation</p>
+                        </th>
+                        <th class="course-name">
+                            <p>	Introdution to Machine Learning</p>
+                            <p> Algorithms </p>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <!-- 4000-level courses -->
+                        <th class="course-level"> 4000-level </th>
+                        <th class="course-name"> 
+                            <p>Topics In Compuational Maths (H)</p>
+                        </th>
+                        <th class="course-name">
+                            <p>	Advanced Computing Research Methods</p>
+                            <p> Advanced Algorithms </p>
+                            <p> Computer Vision </p>
+                            <p> Statistical Machine Learning</p>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Figure of my mark distribution -->
+            <figure>
+                <img id = "mark-distribution" src="assets/mark-distribution.png" alt="My Mark Distribition" style="width:50%">
+                <figcaption id = "mark-distribution-caption">Mark distribition of my courseworks</figcaption>
+            </figure>
+
+        </div>
+
+        <!-- Tutoring section -->
+        <a id="Tutoring"></a>
+        <div id = "tutoring" class="section">
+            <h2 class="section-headings" id = "tutoring-section-heading"> Tutoring </h2>
+
+        
+            <table id= "tutoring-table" class="formating-table">
+
+                <!--  Tutoring 1, COMP1110, heading and description -->
+                <tr> 
+                    <th>
+                        <p class="award-name"> Structured Programming </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2022 Semester 2</p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> First-year programming course introducing Java.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+                <!-- Tutoring 2, COMP3670, heading and description -->
+                <tr> 
+                    <th>
+                        <p class="award-name"> Introdution to Machine Learning  </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2022 Semester 2 </p></th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Third-year course introducing basic machine learning algorithms and their mathematical foundations.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+                <!-- Tutoring 3, COMP3600 -->
+                <tr> 
+                    <th>
+                        <p class="award-name"> Algorithms </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2022 Semester 2 </p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Third-year course introducing foundations of algorithms and data structures.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+
+                <!-- Tutoring 4, COMP4670 -->
+                <tr> 
+                    <th>
+                        <p class="award-name">Statistical Machine Learning </p>  
+                    </th>
+                    <th> <p class="award-institution"> 2022 Semester 1, 2023 Semester 1 </p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Fourth-year course giving comprehensive overview of machine learning algorithms from statistical point of view.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+
+                <!-- Tutoring 5, COMP4528 -->
+                <tr> 
+                    <th>
+                        <p class="award-name">Computer Vision </p>  
+                    </th>
+                    <th> <p class="award-institution">2023 Semester 1 </p> </th>
+                </tr>
+
+                <!-- Institution -->
+                <tr>
+                    <th>
+                    <p class="award-description"> Fourth-year course giving an introdution to computer vision in all levels.</p>
+                    <br style = "line-height: 55;">
+                    </th>
+                    <th></th>
+                </tr>
+            
+
+            </table>
+            <em id = image-description-sea-birds> Timaru, New Zealand. Photographed in January 2023.</em>
+        </div>
+
+        <!-- Contact Me/ Feedback form section -->
+        <a id="ContactMe"></a>
+        <div id="contactme" class="section">
+            <h2 class="section-headings" id="contectme-heading"> Contact Me </h2>
+            <h4 id="msg-feedback-form">Feel free to contact me by filling out the following feedback form if you are interested in me or my research! </h4>
+            <div id = "feedback-form">
+                    <!-- The feedback form -->
+                    <form enctype="text/plain" action="mailto:haiqing.zhu@anu.edu.au">
+                        <label for="user-name">Your Name?</label>
+                        <input type="text" name="user-name" maxlength="250"></input>
+                        <br style = "line-height: 155px;">
+                        <label for = "user-from">Where are you from?</label>
+                        <select class = "select" name="user-from">
+                            <option disabled selected value> -- select an option -- </option>
+                            <option value="Australia">Australia</option>
+                            <option value="USA">USA</option>
+                            <option value="China">China</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Others">Others</option>
+                        </select>
+
+                        <label for = "user-source">How did you know me/my website?</label>
+                        <select class = "select" name="user-source">
+                            <option disabled selected value> -- select an option -- </option>
+                            <option value="Friends">Friends</option>
+                            <option value="Family">Family</option>
+                            <option value="Courses">Courses</option>
+                            <option value="In person meeting with me">In person meeting with me</option>
+                            <option value="Online meeting with me">Online meeting with me</option>
+                            <option value="Others">Others</option>
+                        </select>
+
+                        <br/>
+                        <label for = "user-message">What message do you want to send to me?</label>
+                        <textarea name="user-message" wrap="soft" placeholder="Please write your message here (1500 characters maximum)" maxlength="1500"></textarea>
+                        <br/>
+                        Your email?
+                        <br/>
+                        <input type="text" name="email" wrap="soft" maxlength="120">
+
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Clear">
+                        
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,475 @@
+*{
+    /* Global adjustment for full screen spreading of the background */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+html{
+    overflow-x: hidden; 
+    -webkit-text-size-adjust: 100%;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+/* visited link */
+  a:visited {
+    color: rgb(77, 194, 234);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+@font-face {
+    /* Importing the font for main texts */
+    font-family: "Lato";
+    src: url(font/Lato-Regular.ttf);
+}
+
+@font-face {
+    /* Importing the font for headings */
+    font-family: "Lato-Light";
+    src: url(font/Lato-Light.ttf);
+}
+
+@font-face {
+    /* Importing the font for headings */
+    font-family: "Lato-Italic";
+    src: url(font/Lato-Italic.ttf);
+}
+
+@font-face {
+    /* Importing the font for headings */
+    font-family: "Lato-ThinItalic";
+    src: url(font/Lato-ThinItalic.ttf);
+}
+
+#banner {
+    /* Configuration for the banner page */
+    position: relative;
+    vertical-align: baseline;
+    background-image:  url("assets/lake_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    height: calc(100vh - 40px);
+}
+
+#header {
+    /* Configuration of the header (font and position) */
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 5px black;
+
+    line-height: 90vh;
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+#image_description_lake_1{
+    /* Configuration for the lake image */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    z-index: 1;
+    font-family: "Lato-Italic", sans-serif;
+}
+
+#NavBar {
+    /* Navigation bar global configuration (sticky to the top when scrolling) */
+    position: sticky;
+    top: 0px;
+    height: 40px;
+    z-index: 2;
+  }
+
+#NavBar ul{
+    /* Navigation bar text list configuration */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#NavBar li {
+    /* Navigation bar text configuration (start from left) */
+    float: left;
+}
+
+#NavBar li a {
+    /* Navigation bar link configurations */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+  }
+#NavBar  li a:hover {
+    /* make the bars has color-change effect when hovering */
+    background-color: rgb(53, 219, 211);
+  }
+
+
+
+
+.section {
+    /* Global configuration for the sectionS */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-attachment: fixed;
+    height: auto;
+}
+
+
+
+.section-headings {
+    /* Global configuration for heading (Me and My passion) of the self-intro (me and my passion) section */
+    display: block;
+    position: relative;
+    top: 5vh;
+    z-index: 1;
+    font-size: 60px;
+    font-family: "Lato-Light", sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.section-headings::before {
+    /* Adding the short blue line for the heading */
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 1px;
+    bottom: 0;
+    left: calc(50% - 225px);
+    border-bottom: 3px solid red;
+    margin-bottom: 1vh;
+
+}
+
+/* ---------------------------------------Configurations for the self introduction section--------------------------------------------- */
+
+#self-intro {
+    /* Setting the background image of the self-intro section */
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/queenstown1.jpg);
+    
+    /* Setting the text-align only for this section*/
+    text-align: left;
+
+}
+
+#self-intro h1{
+    /* Configuration for all sub-headings of the me-and-my-passion section */
+    font-size: max(2vw, 30px);
+    text-shadow: 1px 1px 1px rgb(54, 54, 54);
+}
+
+#self-intro h1::before{
+    /* Adding the short blue line for the sub-heading */
+    content: "";
+    width: 20px;
+    height: 1px;
+}
+
+#self-intro p{
+    /* Paragraph font*/
+    font-size: max(1vw,15px);
+    font-family: "Lato-Light";
+
+}
+#self-intro-texts {
+    /* Configuring the introduction texts */
+    display: block;
+    position: relative;
+    margin-left: 40vw;
+    margin-right: 10vw;
+}
+
+#img_myself {
+    /* Positioning the image of myself */
+    position: absolute;
+    left: 7vw;
+    top: 130vh;
+    right: 5vw;
+    bottom: 30vh;
+    width: 20vw;
+    z-index: 0;
+}
+
+#image-description-queenstown {
+    /* positioning the Image description of the me-and-my-passion-section */
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    z-index: 1;
+    font-family: "Lato-Italic", sans-serif;
+}
+
+#self-intro-heading{
+    /* Adjusting the heading width of the reasearch section */
+    width: 160px;
+}
+
+/* ---------------------------------------Configurations for the research section--------------------------------------------- */
+
+#research {
+    /* Adjusting the background color of research projects */
+    background-color: white;
+    color: black;
+    height: auto;
+}
+
+.research-project-heading{
+    font-size: 2em;
+}
+#research-heading::before{
+    left: calc(50% - 210px);
+    width: 420px;
+}
+
+.formating-table{
+    padding: 80px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.research-project-sub-heading{
+    font-family: "Lato-Italic";
+    font-size: 1.5em;
+}
+
+.research-project-supervisor{
+    font-size: 1.17em;
+}
+
+.research-abstract{
+    float: left;
+    text-align: left;
+    font-family: "Lato-ThinItalic";
+    font-size: max(1vw,15px);
+}
+
+.research_teasers_graphs {
+    /* Adjusting the width of research teaser graphs */
+    width: 20vw;
+    padding: 80px;
+}
+
+
+/* --------------------------------------- Configurations for the award section--------------------------------------------- */
+
+#award{
+    /*Modify the background picture*/
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/lake-tekapo.jpg);
+}
+
+#award-table{
+    /* Adjusting the padding of formatting table of award section */
+    padding: 100px;
+    margin-left: 5vw;
+}
+
+#award-heading::before{
+    width: 160px;
+    left: calc(50% - 80px);
+}
+.award-name{
+    text-align: left;
+    font-size: 2em;
+}
+
+.award-institution{
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.award-description{
+    text-align: left;
+    font-family: "Lato-Light";
+}
+
+#image-description-lake-tekapo {
+    /* positioning the Image description of the award-section */
+    position: relative;
+    bottom: 30px;
+    left: calc(100vw - 450px);
+    color: white;
+    z-index: 1;
+    font-family: "Lato-Italic", sans-serif;
+}
+
+
+/* --------------------------------------- Configurations for the coursework section--------------------------------------------- */
+#coursework{
+    background-color: white;
+    color: black;
+}
+
+#coursework-heading{
+    /* Adjusting the header of the coursework section */
+    text-align: center;
+}
+
+#coursework-heading::before{
+    /* Adjusting the underline of the heading */
+    width: 280px;
+    left: calc(50% - 140px);
+}
+
+#coursework-table tr:nth-child(even){
+    /* Adjusting the table style */
+    background-color: #f2f2f2;
+}
+
+#coursework-table{
+    /* Adjusting the position of the table */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#coursework-table th,tr{
+    /* Adjusting the position of the table */
+    padding: 20px;
+
+}
+
+.course-name {
+    /* Adjustinug the font sizes of all course names */
+    font-family: "Lato-Light";
+    font-size: 20px;
+}
+
+.course-level{
+    /* Adjustinug the font sizes of all course levels */
+    font-size: 1.5em;
+}
+
+#mark-distribution{
+    /* Cenetering the image of mark distribution */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mark-distribution-caption{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+
+
+/* --------------------------------------- Configurations for the tutoring section--------------------------------------------- */
+#tutoring{
+     /*Modify the background picture*/
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/sea-birds.jpg);
+}
+
+#tutoring-section-heading::before{
+    /*Modify the position and the lenghth of the underline of tutoring section*/
+    width: 180px;
+    left: calc(50% - 90px);
+}
+
+#image-description-sea-birds{
+    /*Modify the position of the image description of tutoring section*/
+    position: relative;
+    display: block;
+    left: 10px;
+    bottom: 10px;
+    font-family: "Lato-Italic", sans-serif;
+}
+
+
+
+/* --------------------------------------- Configurations for the Contact Me (feedback form) section--------------------------------------------- */
+#contactme{
+    /* Modify the background color of the contactme section */
+    background-color: white;
+    color: black;
+}
+
+#contectme-heading::before{
+    /* Modify the underline of heading in the feedback form section */
+    width: 300px;
+    left: calc(50% - 150px);
+}
+
+#msg-feedback-form{
+    display: block;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    top: calc(5vh + 20px);
+    font-family: "Lato-ThinItalic";
+}
+
+#feedback-form{
+    display: block;
+    position: relative;
+    margin-left: 27vw;
+    margin-right: 27vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2vw;
+}
+
+#feedback-form textarea,input[type = text],select{
+    width: 40vw;
+    margin-bottom: 5vh;
+    font-size: 18px;
+    border-bottom: 2px solid black;
+    font-family: "Lato-Italic";
+}
+
+#feedback-form textarea{
+    border: 2px solid black;
+    height: 10vh;
+}
+
+#feedback-form input[type=submit],input[type=reset]{
+    margin-bottom: 5px;
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#feedback-form input[type=reset]{
+    background-color: gray;
+}
