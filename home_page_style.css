@@ -12,12 +12,12 @@ html{
 
 /* unvisited link */
 a:link {
-    color: blue;
+    color: rgb(77, 194, 234);
   }
   
 /* visited link */
   a:visited {
-    color: rgb(77, 194, 234);
+    color: rgb(174, 193, 202);
   }
   
   /* mouse over link */
@@ -30,6 +30,8 @@ a:link {
     color: blue;
   }
 
+
+/* ----------------------Adding "Lato" fonts -----------------------------------*/ 
 @font-face {
     /* Importing the font for main texts */
     font-family: "Lato";
@@ -287,7 +289,7 @@ a:link {
 
 #award{
     /*Modify the background picture*/
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/lake-tekapo.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/lake-tekapo.jpg);
 }
 
 #award-table{
@@ -391,7 +393,7 @@ a:link {
 /* --------------------------------------- Configurations for the tutoring section--------------------------------------------- */
 #tutoring{
      /*Modify the background picture*/
-     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/sea-birds.jpg);
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/sea-birds.jpg);
 }
 
 #tutoring-section-heading::before{
